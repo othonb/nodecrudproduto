@@ -1,0 +1,20 @@
+{
+  "name": "leilaodeanimais",
+  "version": "1.0.0",
+  "description": "Leilao e Venda de Animais",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Othon Marcelo Nunes Batista",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "multer": "^1.3.0",
+    "mysql": "^2.13.0",
+    "nodemailer": "^4.4.1"
+  }
+}
+

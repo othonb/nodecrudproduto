@@ -6,4 +6,7 @@ module.exports = function (app) {
     var alteraProduto = require ('../rotas/alteraProduto') (app);
 
     var removeProduto = require ('../rotas/removeProduto') (app);
+
+    var consultaProduto = require ('../rotas/consultaProduto') (app);
+
 };

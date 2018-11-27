@@ -22,7 +22,7 @@ consultaSQL += "`descricao` VARCHAR(30) NOT NULL,";
 consultaSQL += "`quantidade` INT(11) NOT NULL,";
 consultaSQL += "`preco_compra` DOUBLE NOT NULL,";
 consultaSQL += "`preco_venda` DOUBLE NOT NULL,";
-consultaSQL += "PRIMARY KEY (`id`));";
+consultaSQL += "PRIMARY KEY (`codigo`));";
 
 
 var msg =  "Banco de dados, tabelas, funções e procedimentos armazenados criadas com sucesso";
